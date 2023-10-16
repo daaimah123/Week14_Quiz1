@@ -13,8 +13,8 @@ function App() {
     return items.map((item, i) => {
       return (
         <div key={i}>
-          <h3>{items.name}</h3>
-          <p>Price: {items.price}</p>
+          <h3>{item.name}</h3>
+          <p>Price: {item.price}</p>
         </div>
       );
     });
